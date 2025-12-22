@@ -1,5 +1,6 @@
 # Declarative
 
+This is mainly a repo to work around Jujutsu functionalities and workflow.
 **TODO: Add description**
 
 ## Installation
