@@ -9,9 +9,15 @@ defmodule Declarative do
     "hello"
   end
 
+  @doc """
+  Converts all strings in the list to uppercase.
+  """
   def upcase_list([]), do: []
   def upcase_list([first | rest]), do: [String.upcase(first) | upcase_list(rest)]
 
+  @doc """
+  Converts all strings in the list to lowercase.
+  """
   def lowercase_list([]), do: []
   def lowercase_list([first | rest]), do: [String.downcase(first) | lowercase_list(rest)]
 
