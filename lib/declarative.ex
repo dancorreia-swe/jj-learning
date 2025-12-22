@@ -1,4 +1,7 @@
 defmodule Declarative do
+  @moduledoc """
+  A module demonstrating declarative programming with recursion.
+  """
   @doc """
   Returns the string "hello".
   """
