@@ -1,6 +1,9 @@
 defmodule Declarative do
+  @doc """
+  Returns the string "hello".
+  """
   def hello do
-    :world
+    :hello
   end
 
   def upcase_list([]), do: []
