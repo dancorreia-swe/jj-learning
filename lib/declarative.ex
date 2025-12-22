@@ -6,7 +6,7 @@ defmodule Declarative do
   Returns the string "hello".
   """
   def hello do
-    "hello"
+    "Hello, world!"
   end
 
   @doc """
