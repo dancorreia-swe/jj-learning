@@ -3,7 +3,7 @@ defmodule Declarative do
   Returns the string "hello".
   """
   def hello do
-    :hello
+    "hello"
   end
 
   def upcase_list([]), do: []
