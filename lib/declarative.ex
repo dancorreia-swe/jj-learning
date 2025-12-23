@@ -25,5 +25,5 @@ defmodule Declarative do
   Capitalize all words in the list.
   """
   def capitalize_list([]), do: []
-  def capitalize_list([first | rest]), do: [String.capitalize(first) | capitalize_list(rest)]
+  def capitalize_list([word | rest]), do: [String.capitalize(word) | capitalize_list(rest)]
 end
